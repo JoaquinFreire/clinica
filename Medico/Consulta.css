@@ -1,0 +1,111 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0a4c83;
+    /*FONDO*/
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    /*LETRAS*/
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(12, 103, 145);
+}
+
+.active {
+    background-color: #14d18c;
+    /*POSICION*/
+}
+
+
+/*
+
+  */
+
+label {
+    font-size: 40px;
+}
+
+#contenedor {
+    color: white;
+    background-color: #0a4c83eb;
+    /*color de la caja*/
+    font-family: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    min-width: 10vw;
+    min-height: 15vh;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 1px 0px 5px 1px rgb(13 0 255 / 32%);
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    /*curvatura en las cuatro esquinas*/
+}
+
+input {
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 10px 15px 5px rgb(9 3 119 / 15%);
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 33px 33px 133px 33px;
+    /*curvatura en las cuatro esquinas*/
+    font-size: 23px;
+}
+
+#contenedorcito {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    min-width: 60vw;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#contenedorcito input {
+    width: 100%;
+}
+
+#datos {
+    width: 100%;
+    max-width: 620px;
+    min-width: 620px;
+    padding: 30px 30px 50px 30px;
+    background-color: #0a4c83;
+    /*color de la caja*/
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    /*curvatura en las cuatro esquinas*/
+    box-sizing: border-box;
+    opacity: 1;
+    filter: alpha(opacity=1);
+}

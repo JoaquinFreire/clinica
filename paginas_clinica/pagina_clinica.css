@@ -1,0 +1,129 @@
+body {
+    font-family: 'Overpass', sans-serif;
+    font-weight: normal;
+    font-size: 100%;
+    color: #1b262c;
+    margin: 0;
+    background-color: #f0ffff;
+    /*color del fondo*/
+}
+
+
+/* efectos para el contenedor de pantalla completa */
+
+#contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#login {
+    width: 100%;
+    max-width: 320px;
+    min-width: 320px;
+    padding: 30px 30px 50px 30px;
+    background-color: red;
+    /*color de la caja*/
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    /*curvatura en las cuatro esquinas*/
+    box-sizing: border-box;
+    opacity: 1;
+    filter: alpha(opacity=1);
+}
+
+#login label {
+    display: block;
+    font-family: 'Overpass', sans-serif;
+    font-size: 120%;
+    color: white;
+    margin-top: 15px;
+}
+
+
+/*color de la letra usuario y contra*/
+
+#login input {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color: rgb(0, 0, 0);
+    /*color al escribir en la casilla*/
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+}
+
+#login input::placeholder {
+    font-family: 'Overpass', sans-serif;
+    color: lightgray;
+}
+
+
+/*color de las letras dentro de la casilla*/
+
+#login button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color: black;
+    /*color de la letra del boton*/
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    background-color: #f0ffff;
+    /*color del boton*/
+    margin-top: 10px;
+}
+
+#login button:hover {
+    background-color: lightgrey;
+    /*color al pasar el mouse al boton*/
+    color: black;
+}
+
+
+/* formulario de login */
+
+/* seccion de la derecha */
+
+
+/* por defecto */
+
+#derecho {
+    /*display: flex;
+    align-items:center;
+    justify-content:center;*/
+    text-align: center;
+    width: 100%;
+    opacity: 0.90;
+    filter: alpha(opacity=70);
+    box-sizing: border-box;
+}
+
+.titulo {
+    font-size: 170%;
+    padding-top: 10%;
+    text-align: center;
+    color: black;
+}

@@ -1,0 +1,43 @@
+body{
+	background-color: #F6F6FB;
+	color:  black;
+	font-size: 20px;
+}
+h1 {
+    text-align: center;
+    color: #00005D;
+    font-weight: normal;
+    font-size: 30px;
+    font-family: Arial;
+    text-transform: uppercase;
+}
+h2 {
+	text-align: center;
+    color: #00005D;
+    font-weight: normal;
+    font-size: 30px;
+  
+}
+table {
+    background-color: #E9E9E9;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+	background-color: #0D50AC;
+	color:  white;
+}
+.boton {
+    text-decoration: none;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    background-color: #242E89;
+    border-radius: 15px;
+}
